@@ -5,21 +5,60 @@
 <head>
   <meta charset="utf-8">
 
-  <title> Title </title>
-  <meta name="description" content="Basic Description">
+  <title> Nav Bar </title>
+  <meta name="description" content="Nav Bar Test">
   <meta name="author" content="Jade Manrique">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" href="img/globe.png">
   <link rel="stylesheet" href="css/reset.css?v=1.0">
   <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
   <script src="scripts/jquery-3.3.1.min.js"></script>
   <script src="scripts/scripts.js"></script>
 </head>
 
 <body>
 
-  <p>  </p>
+<!-- Navigation Bar -->
+  <div class="nav">
+    <ul>
+      <li><img class="logo" src="img/stv-small.png" /></li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Events</a></li>
+      <li><a href="#">Get Involved</a></li>
+      <li><a href="#">Donate</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+
+<div class="dropdown nav full">
+  <button onclick="myFunction()" class="dropbtn"><i class="fas fa-arrow-alt-circle-down"></i></button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Events</a>
+    <a href="#">Get Involved</a>
+    <a href="#">Donate</a>
+    <a href="#">Contact</a>
+  </div>
+</div>
+<!-- Navigation Bar END -->
+
+<!-- Article -->
+<div class="article center">
+  <p>This webpage is still under development!</p>
+</div>
+<!-- Article END -->
+
+<!-- Copyright -->
+<div class="center">
+  <p class="sign"> Copyright &copy; osteoecstasy 2018 </p>
+</div>
+<!-- Copyright END -->
 
 </body>
 
