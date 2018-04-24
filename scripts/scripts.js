@@ -1,17 +1,18 @@
 $(document).ready(function() {
 
 
+/* Hover Effect */
   $('.nav li a').hover(function(e) {
     $(this).animate({opacity: .5}, 100);
   }, function() {
     $(this).animate({opacity: 1}, 100);
   });
-
+/* END */
 
 });
 
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
+
+/* Dropdown Navigation */
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -30,3 +31,4 @@ window.onclick = function(event) {
     }
   }
 }
+/* END */
